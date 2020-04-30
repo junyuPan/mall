@@ -37,7 +37,7 @@ export default {
             return this.$route.path.indexOf(this.path) !== -1
         },
         actionStyle(){
-            console.log(this.actionColor, this.isAction,!this.hasShow);
+            // console.log(this.actionColor, this.isAction,!this.hasShow);
             
             return this.isAction ? {color: this.actionColor}:{color: this.$props.color}
         }
