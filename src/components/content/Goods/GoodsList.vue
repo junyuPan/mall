@@ -32,7 +32,7 @@ export default {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    padding: 2px;
+    padding: 3px;
 }
 
 </style>
